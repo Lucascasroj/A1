@@ -1,0 +1,19 @@
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "MEME": "Una imagen que tenga un significado gracioso",
+            "SHEESH": "Ligera desaprobación",
+            "CREEPY": "Aterrador, siniestro",
+            "HATER": "Alguna persona que manda mensajes de odio en internet",
+            "HYPE": "Tener mucha emoción o expectativas sobre algo",
+            "COOL": "Genial, fantástico y maravilloso.",
+            "CUTE": "Algo tierno o lindo",
+            }
+            
+print("Hola, ¿Como estas? ¡Aquí te enseñaremos el significado de algunas palabras modernas de los jovenes!")            
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("Esa palabra lamentablemente no esta todavia en el diccionario. ¡Prueba otra!")
